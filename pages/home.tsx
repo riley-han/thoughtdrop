@@ -5,8 +5,8 @@ const Home = () => {
   const [enabled, setEnabled] = useState(false)
   return (
     <div>
-      <div className="text-green-300">hey</div>
       <Switch
+        role="switch"
         checked={enabled}
         onChange={setEnabled}
         className={`${
