@@ -1,0 +1,6 @@
+.Container {
+    @apply absolute cursor-pointer bottom-5 bg-black w-[50%] h-8 sm:w-[15%] sm:h-8 rounded-2xl sm:mx-auto sm:relative sm:bottom-0;
+    // width transition styles
+    @apply hover:w-[20%] transition-all duration-500 ease-in-out;
+    @apply text-center;
+}
